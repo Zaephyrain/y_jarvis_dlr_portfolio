@@ -40,21 +40,21 @@ const Skills = () => {
         <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         ">
-        Web
+        Artiste 2D/3D/Graphiste
       </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
+        <Skill name="Modélisation 3D" x="-20vw" y="2vw" />
 
-          <Skill name="CSS" x="-5vw" y="-10vw" />
-          <Skill name="JavaScript" x="20vw" y="6vw" />
-          <Skill name="ReactJS" x="0vw" y="12vw" />
-          <Skill name="NextJS" x="-20vw" y="-15vw" />
-          <Skill name="GatsbyJS" x="15vw" y="-12vw" />
-          <Skill name="Github" x="-35vw" y="-5vw" />
-          <Skill name="Web Design" x="32vw" y="-5vw" />
-          <Skill name="Figma" x="0vw" y="-20vw" />
-          <Skill name="Firebase" x="-25vw" y="18vw" />
-          <Skill name="Tawilwind CSS" x="28vw" y="18vw" />
+          <Skill name="Texturing (Stylisé et Réaliste)" x="-5vw" y="-10vw" />
+          <Skill name="Sculpting" x="20vw" y="6vw" />
+          <Skill name="Optimisation d'Assets" x="0vw" y="12vw" />
+          <Skill name="Dessin au Fusain/Crayon" x="-20vw" y="-15vw" />
+          <Skill name="Graphisme" x="15vw" y="-12vw" />
+          <Skill name="Peinture à l'huile" x="-35vw" y="-5vw" />
+          <Skill name="Digital Painting" x="32vw" y="-5vw" />
+          <Skill name="Photographie" x="0vw" y="-20vw" />
+          <Skill name="Photoshop/Illustrator/Lightroom" x="-25vw" y="18vw" />
+          <Skill name="Blender/ZBrush/Substance Painter 3D" x="28vw" y="18vw" />
     </div></>
   );
 };

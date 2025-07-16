@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/developer-pic-2.jpg";
+import profile from "../../public/images/profile/about_pic_1.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -38,7 +38,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Minimal Portfolio Built with Nextjs | Watermelon Page</title>
+        <title>Minimal Portfolio Built with Nextjs | About Page</title>
         <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
         full-stack development, front-end development, and back-end development." />
