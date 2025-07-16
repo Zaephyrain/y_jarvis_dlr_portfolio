@@ -38,7 +38,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Minimal Portfolio Built with Nextjs | About Page</title>
+        <title>Minimal Portfolio Built with Nextjs | Watermelon Page</title>
         <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
         full-stack development, front-end development, and back-end development." />

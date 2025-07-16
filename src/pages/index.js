@@ -6,7 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/zizi.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning vision into reality with code and design."
+                text="I love cats."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
