@@ -42,14 +42,14 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Artisan du Numérique"
+                text="Artisan Numérique"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              Salut ! Je m'appelle Jarvis et je suis Artiste 2D/3D et Graphiste !
+              Salut ! Je m&apos;appelle Jarvis et je suis Artiste 2D/3D et Graphiste !
               Je vise à réaliser des projets grâce à mes capacités dans le numérique.
 
-              Si on peut y penser, c'est qu'on peut le modéliser (ou le dessiner) !
+              Si on peut y penser, c&apos;est qu&apos;on peut le modéliser (ou le dessiner) !
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
