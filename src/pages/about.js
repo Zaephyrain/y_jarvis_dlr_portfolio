@@ -49,7 +49,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="De la toile au pixel, je donne vie à vos idées!"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -57,19 +57,18 @@ export default function About() {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                BIOGRAPHIE
+                À propos de moi
               </h2>
                <p className="font-medium ">
-                Salut, moi c'est Jarvis, un Artiste 3D/2D/Traditionnel et Graphiste!
-                Je crée avec passion des assets en 3D, des portraits numérique ou traditionnel et des concepts arts.
+                Je m'appelle Yrish Jarvis dela Rosa, un Artiste 3D/2D/Traditionnel et Graphiste!
+                Je crée avec passion des assets en 3D, des portraits numérique ou traditionnel, des concepts arts et des visuels.
               </p>
               <p className="my-4 font-medium">
-                J’ai suivi deux ans de formation dans une école en tant qu’Infographiste 2D et 3D, puis trois ans en tant qu’Artiste Classique Figuratif, ce qui m’a permis de développer des compétences techniques, un œil artistique affûté et un bon sens de l’observation.
-                En parallèle de mes études, j’ai également découvert les métiers de la restauration, en occupant des postes tels que Barman, Serveur, Chef de Rang et Assistant Responsable.
-                Ces expériences m’ont permis d’acquérir des compétences relationnelles, comme la gestion des priorités, la résolution de conflits, ainsi qu’un sens affiné du service et de l’accueil.
+                J’ai suivi deux ans de formation dans une école en tant qu’Infographiste 2D et 3D, puis trois ans dans un atelier en tant qu’Artiste Classique Figuratif, ce qui m’a permis de développer des compétences techniques, un œil artistique affûté et un bon sens de l’observation.
+                J'ai également des compétences relationnelles, comme la gestion des priorités, la résolution de conflits, ainsi qu’un sens affiné du service et de l’accueil que j'ai pu acquérir grâce aux métiers de la restauration que j'ai pu exercer en parallèle de mes études.
               </p>
               <p className="font-medium">
-                Armée de mes capacités Artistique et Techniques, j'aimerais intégrer un projet permettant de valoriser mes compétences notamment dans
+                Armée de mes capacités Artistique et Technique, j'aimerais intégrer des projets permettant de valoriser mes compétences notamment dans
                 le Jeu vidéo, les projets divers en VR/XR ou de Graphisme.
               </p>
             </div>
