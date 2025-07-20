@@ -60,15 +60,15 @@ export default function About() {
                 À propos de moi
               </h2>
                <p className="font-medium ">
-                Je m'appelle Yrish Jarvis dela Rosa, un Artiste 3D/2D/Traditionnel et Graphiste!
+                Je m&apos;appelle Yrish Jarvis dela Rosa, un Artiste 3D/2D/Traditionnel et Graphiste!
                 Je crée avec passion des assets en 3D, des portraits numérique ou traditionnel, des concepts arts et des visuels.
               </p>
               <p className="my-4 font-medium">
-                J’ai suivi deux ans de formation dans une école en tant qu’Infographiste 2D et 3D, puis trois ans dans un atelier en tant qu’Artiste Classique Figuratif, ce qui m’a permis de développer des compétences techniques, un œil artistique affûté et un bon sens de l’observation.
-                J'ai également des compétences relationnelles, comme la gestion des priorités, la résolution de conflits, ainsi qu’un sens affiné du service et de l’accueil que j'ai pu acquérir grâce aux métiers de la restauration que j'ai pu exercer en parallèle de mes études.
+                J&apos;ai suivi deux ans de formation dans une école en tant qu&apos;Infographiste 2D et 3D, puis trois ans dans un atelier en tant qu&apos;Artiste Classique Figuratif, ce qui m&apos;a permis de développer des compétences techniques, un œil artistique affûté et un bon sens de l&apos;observation.
+                J&apos;ai également des compétences relationnelles, comme la gestion des priorités, la résolution de conflits, ainsi qu&apos;un sens affiné du service et de l&apos;accueil que j&apos;ai pu acquérir grâce aux métiers de la restauration que j&apos;ai pu exercer en parallèle de mes études.
               </p>
               <p className="font-medium">
-                Armée de mes capacités Artistique et Technique, j'aimerais intégrer des projets permettant de valoriser mes compétences notamment dans
+                Armée de mes capacités Artistique et Technique, j&apos;aimerais intégrer des projets permettant de valoriser mes compétences notamment dans
                 le Jeu vidéo, les projets divers en VR/XR ou de Graphisme.
               </p>
             </div>
