@@ -57,26 +57,20 @@ export default function About() {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                BIOGRAPHY
+                BIOGRAPHIE
               </h2>
-              <p className="font-medium ">
-                Hi, I&apos;m <strong>CodeBucks</strong>, a web developer and
-                UI/UX designer with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 4 years
-                of experience in the field. I am always looking for new and
-                innovative ways to bring my clients&apos; visions to life.
+               <p className="font-medium ">
+                Salut, moi c'est Jarvis, un Artiste 3D/2D/Traditionnel et Graphiste!
+                Je crée avec passion des assets en 3D, des portraits numérique ou traditionnel et des concepts arts.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                J’ai suivi deux ans de formation dans une école en tant qu’Infographiste 2D et 3D, puis trois ans en tant qu’Artiste Classique Figuratif, ce qui m’a permis de développer des compétences techniques, un œil artistique affûté et un bon sens de l’observation.
+                En parallèle de mes études, j’ai également découvert les métiers de la restauration, en occupant des postes tels que Barman, Serveur, Chef de Rang et Assistant Responsable.
+                Ces expériences m’ont permis d’acquérir des compétences relationnelles, comme la gestion des priorités, la résolution de conflits, ainsi qu’un sens affiné du service et de l’accueil.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                Armée de mes capacités Artistique et Techniques, j'aimerais intégrer un projet permettant de valoriser mes compétences notamment dans
+                le Jeu vidéo, les projets divers en VR/XR ou de Graphisme.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
@@ -102,31 +96,31 @@ export default function About() {
             xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={40} />+
+                  
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
+                  
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={50} />+
+                  
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  projects completed
+                  
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={4} />+
+                  
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Years of experience
+                  
                 </h2>
               </div>
             </div>
