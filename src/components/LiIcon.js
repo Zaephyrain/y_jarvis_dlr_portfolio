@@ -15,7 +15,7 @@ const LiIcon = ({ reference, time }) => {
           cy="50"
           r="20"
           pathLength="1"
-          className="stroke-primary  stroke-1 fill-none dark:stroke-primaryDark"
+          className="stroke-light  stroke-1 fill-none dark:stroke-gray-900"
         />
         <motion.circle
           cx="75"
@@ -30,7 +30,7 @@ const LiIcon = ({ reference, time }) => {
           cy="50"
           r="10"
           pathLength="1"
-          className="animate-pulse stroke-1 fill-primary dark:fill-primaryDark"
+          className="animate-pulse stroke-1 fill-blue-200 dark:fill-green-200"
         />
       </svg>
     </figure>

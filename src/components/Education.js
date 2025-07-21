@@ -39,7 +39,7 @@ const Education = () => {
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
         <motion.div
-          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark  origin-top rounded-full dark:bg-primaryDark dark:shadow-3xl"
+          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-blue-300   origin-top rounded-full dark:bg-green-300  dark:shadow-3xl"
           style={{ scaleY: scrollYProgress }}
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
@@ -47,7 +47,7 @@ const Education = () => {
             type="Artiste Classique Figuratif"
             time="2019-2021"
             place="Conservatoire de Dessin et de Peinture de Paris (CDPP) 75011 Paris"
-            info="Dessin au crayon et fusain • Peinture à l'huile • Observation de modeèles vivants et d'objets réels • Étude d'oeuvres"
+            info="Dessin au crayon et fusain • Peinture à l'huile • Observation de modèles vivants et d'objets réels • Étude d'oeuvres"
           />
 
           <Details
