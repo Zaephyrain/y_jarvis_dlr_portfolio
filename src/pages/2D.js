@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/classroom_image.jpg";
-import proj2 from "../../public/images/projects/mei_gun.jpg";
-import proj3 from "../../public/images/projects/room_iso.jpg";
-import proj4 from "../../public/images/projects/house_iso.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/cafe_cuties_milio_splash_fanart.jpg";
+import proj2 from "../../public/images/projects/milio_portrait.jpg";
+import proj3 from "../../public/images/projects/zaemigo_aroush.jpg";
+import proj4 from "../../public/images/projects/portrait_study.jpg";
+import proj5 from "../../public/images/projects/eunwoo_portrait.jpg";
+import proj6 from "../../public/images/projects/jisoo_portrait.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -184,57 +184,57 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Projet à la une  "
-                title="Salle de classe"
-                summary="Une salle de classe japonaise crée à l'occasion de l'apprentissage sur Blender et Substance Painter 3D."
+                title="Café Cuties Milio Splashart (fanart)"
+                summary="Un splash art de Milio (un personnage de League of Legends) en l'imaginant dans le skinline Café Cuties."
                 img={proj1}
-                link="https://www.artstation.com/artwork/PX5KXL"
-                github="https://www.artstation.com/artwork/PX5KXL"
+                link="https://www.artstation.com/artwork/6N6wb6"
+                github="https://www.artstation.com/artwork/6N6wb6"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Projet Personnel"
-                title="Pistolet de Mei (Overwatch)"
+                title="Portrait Milio"
                 img={proj2}
-                link="https://www.artstation.com/artwork/qeKwvn"
-                github="https://www.artstation.com/artwork/qeKwvn"
+                link="https://www.artstation.com/artwork/xDvRAW"
+                github="https://www.artstation.com/artwork/xDvRAW"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Projet Personnel"
-                title="Chambre Isométrique"
+                title="Zaemigo #4"
                 img={proj3}
-                link="https://www.artstation.com/artwork/6NQoG0"
-                github="https://www.artstation.com/artwork/6NQoG0"
+                link="https://www.artstation.com/artwork/yD250R"
+                github="https://www.artstation.com/artwork/yD250R"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
                 type="Projet Personnel"
-                title="Maison Isométrique"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                title="Étude de portrait (Sargent)"
+                summary=""
                 img={proj4}
-                link="https://www.artstation.com/artwork/5vazPE"
-                github="https://www.artstation.com/artwork/5vazPE"
+                link="https://www.artstation.com/artwork/g0VQ28"
+                github="https://www.artstation.com/artwork/g0VQ28"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="Projet Personnel"
                 img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                title="Étude de portrait (Eunwoo)"
+                link="https://www.artstation.com/artwork/XneYw0"
+                github="https://www.artstation.com/artwork/XneYw0"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type="Projet Personnel"
                 img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                title="Étude de portrait (Jisoo)"
+                link="https://www.artstation.com/artwork/NxwBRJ"
+                github="https://www.artstation.com/artwork/NxwBRJ"
               />
             </div>
           </div>

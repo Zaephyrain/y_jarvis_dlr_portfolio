@@ -6,11 +6,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/eval_graph.jpg";
-import proj2 from "../../public/images/projects/mei_gun.jpg";
+import proj2 from "../../public/images/projects/noir_blanc.jpg";
 import proj3 from "../../public/images/projects/room_iso.jpg";
-import proj4 from "../../public/images/projects/house_iso.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj4 from "../../public/images/projects/petits_papiers.jpg";
+import proj5 from "../../public/images/projects/exo_affiche.jpg";
+import proj6 from "../../public/images/projects/triptyque_insta.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -193,11 +193,11 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="Mei Gun"
+                type="Évaluation de Graphisme"
+                title="Conception d'un livre physique (popup) en lien avec un film."
                 img={proj2}
-                link="https://www.artstation.com/artwork/qeKwvn"
-                github="https://www.artstation.com/artwork/qeKwvn"
+                link="https://www.youtube.com/shorts/4lZaY4-ec04"
+                github="https://www.youtube.com/shorts/4lZaY4-ec04"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -211,30 +211,30 @@ export default function Projects() {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                type="Évaluation de Graphisme"
+                title="Motion Design"
+                summary="Créetion d'une Intro, Outro et Synthé sur le thème des papiers pliés à l'occasion d'une évaluation de graphisme."
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://youtu.be/0LRvUcefN0o"
+                github="https://youtu.be/0LRvUcefN0o"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="Évaluation de Graphisme"
                 img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                title="Typography/Visuels"
+                link="https://www.artstation.com/artwork/QK6Kn4"
+                github="https://www.artstation.com/artwork/QK6Kn4"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type="Évaluation de Graphisme"
                 img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                title="Triptyque Post Instagram"
+                link="https://www.artstation.com/artwork/Jr5vLd"
+                github="https://www.artstation.com/artwork/Jr5vLd"
               />
             </div>
           </div>

@@ -22,7 +22,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}{" "}
           <a
-            className="capitalize text-blue-400 dark:text-green-300"
+            className="capitalize text-blue-300 dark:text-green-300"
             href={companyLink}
             target={"_blank"}
           >
