@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/classroom_image.jpg";
-import proj2 from "../../public/images/projects/mei_gun.jpg";
-import proj3 from "../../public/images/projects/room_iso.jpg";
-import proj4 from "../../public/images/projects/house_iso.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/long_study_1.jpg";
+import proj2 from "../../public/images/projects/live_model_1.jpg";
+import proj3 from "../../public/images/projects/oil_painting_1.jpg";
+import proj4 from "../../public/images/projects/festin_des_fourmis.jpg";
+import proj5 from "../../public/images/projects/une_palette_culinaire.jpg";
+import proj6 from "../../public/images/projects/a_day_in_a_life_of.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -183,58 +183,58 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
-                title="Classroom"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                type="Projet à la une"
+                title="Étude long"
+                summary="Étude d'un platre sur 5 mois."
                 img={proj1}
-                link="https://www.artstation.com/artwork/PX5KXL"
-                github="https://www.artstation.com/artwork/PX5KXL"
+                link="https://www.artstation.com/artwork/8bPGlE"
+                github="https://www.artstation.com/artwork/8bPGlE"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="Mei Gun"
+                type="Dessin"
+                title="Model vivant"
                 img={proj2}
-                link="https://www.artstation.com/artwork/qeKwvn"
-                github="https://www.artstation.com/artwork/qeKwvn"
+                link="https://www.artstation.com/artwork/0lglWw"
+                github="https://www.artstation.com/artwork/0lglWw"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type="Peinture à l'huile"
+                title="Étude d'une peinture de grand maître (Velasquez)"
                 img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://www.artstation.com/artwork/DvQGxR"
+                github="https://www.artstation.com/artwork/DvQGxR"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
                 type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                title="Festin des fourmis"
+                summary="Une série de 6 photographies documentant un festin chez des fourmis."
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://www.artstation.com/artwork/4NgNgW"
+                github="https://www.artstation.com/artwork/4NgNgW"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="Évaluation Photographie"
+                title="Une palette culinaire"
                 img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://www.artstation.com/artwork/YGvGZq"
+                github="https://www.artstation.com/artwork/YGvGZq"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type="Évaluation Photographie"
+                title="A day in a life of..."
                 img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                link="https://www.artstation.com/artwork/x3b3bX"
+                github="https://www.artstation.com/artwork/x3b3bX"
               />
             </div>
           </div>
