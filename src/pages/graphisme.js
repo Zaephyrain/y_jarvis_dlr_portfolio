@@ -202,11 +202,11 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
-                img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                type="Évaluation de Graphisme"
+                img={proj6}
+                title="Triptyque Post Instagram"
+                link="https://www.artstation.com/artwork/Jr5vLd"
+                github="https://www.artstation.com/artwork/Jr5vLd"
               />
             </div>
             <div className="col-span-12">
@@ -228,15 +228,7 @@ export default function Projects() {
                 github="https://www.artstation.com/artwork/QK6Kn4"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Évaluation de Graphisme"
-                img={proj6}
-                title="Triptyque Post Instagram"
-                link="https://www.artstation.com/artwork/Jr5vLd"
-                github="https://www.artstation.com/artwork/Jr5vLd"
-              />
-            </div>
+            
           </div>
         </Layout>
       </main>

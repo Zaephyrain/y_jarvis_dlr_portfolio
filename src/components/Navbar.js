@@ -95,7 +95,7 @@ const Navbar = () => {
         <CustomLink className="mx-4" href="/3D" title="3D" />
         <CustomLink className="mx-4" href="/2D" title="2D" />
         <CustomLink className="mx-4" href="/graphisme" title="Graphisme" />
-        <CustomLink className="mx-4" href="/autre" title="Autre" />
+        <CustomLink className="mx-4" href="/projets_divers" title="Projets Divers" />
       </nav>
       <nav
         className="flex items-center justify-center flex-wrap lg:mt-2
